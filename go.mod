@@ -3,6 +3,7 @@ module github.com/MikeB1124/stocks-profit-calculator-lambda
 go 1.22.4
 
 require (
+	github.com/MikeB1124/stocks-lambda-utils v0.0.0-20240622202630-c2414c590cbd
 	github.com/alpacahq/alpaca-trade-api-go/v3 v3.4.0
 	github.com/aquasecurity/lmdrouter v0.4.4
 	github.com/aws/aws-lambda-go v1.47.0
@@ -14,7 +15,6 @@ require (
 
 require (
 	cloud.google.com/go v0.115.0 // indirect
-	github.com/MikeB1124/stocks-lambda-utils v0.0.0-20240622200503-d0693487e906 // indirect
 	github.com/aws/aws-sdk-go-v2/credentials v1.17.21 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.16.8 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/configsources v1.3.12 // indirect

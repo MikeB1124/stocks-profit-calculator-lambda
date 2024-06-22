@@ -1,12 +1,8 @@
 cloud.google.com/go v0.115.0 h1:CnFSK6Xo3lDYRoBKEcAtia6VSC837/ZkJuRduSFnr14=
 cloud.google.com/go v0.115.0/go.mod h1:8jIM5vVgoAEoiVxQ/O4BFTfHqulPZgs/ufEzMcFMdWU=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
-github.com/MikeB1124/stocks-lambda-utils v0.0.0-20240622193011-9a56171c6d64 h1:r5qwXFv2bmNR35G4PLz2sxNUkRKDfkPFxl3goFCcK9I=
-github.com/MikeB1124/stocks-lambda-utils v0.0.0-20240622193011-9a56171c6d64/go.mod h1:pMn3Qj9jImHhZnk/obh4f8Cq7q2paZ0klYmIChOLhaQ=
-github.com/MikeB1124/stocks-lambda-utils v0.0.0-20240622195649-c5876e32f2b1 h1:B2EoPmgvazRAKYzybGuJCNGaJdhUREwHiTQ99NJXKUk=
-github.com/MikeB1124/stocks-lambda-utils v0.0.0-20240622195649-c5876e32f2b1/go.mod h1:pMn3Qj9jImHhZnk/obh4f8Cq7q2paZ0klYmIChOLhaQ=
-github.com/MikeB1124/stocks-lambda-utils v0.0.0-20240622200503-d0693487e906 h1:JWQnNQpbS3hYSSCz/wlK9z27rLul5AOSPctg9HNoVV4=
-github.com/MikeB1124/stocks-lambda-utils v0.0.0-20240622200503-d0693487e906/go.mod h1:QPgk0BygZQ9GVDyLUUD9DuJpaNBVF7T5lBfH+pnDFcQ=
+github.com/MikeB1124/stocks-lambda-utils v0.0.0-20240622202630-c2414c590cbd h1:ty+Jn+FhlhWDZf6TGottC1Ua7uhBLxcC8rRya6CTcrE=
+github.com/MikeB1124/stocks-lambda-utils v0.0.0-20240622202630-c2414c590cbd/go.mod h1:QPgk0BygZQ9GVDyLUUD9DuJpaNBVF7T5lBfH+pnDFcQ=
 github.com/alpacahq/alpaca-trade-api-go/v3 v3.4.0 h1:tcglbJ4agWXt9MNisK1cnoigRDmWEX85yb94IkQ52BU=
 github.com/alpacahq/alpaca-trade-api-go/v3 v3.4.0/go.mod h1:yQZTQ0N6Rfo8Sg7ishqAZ1i/ybMZBqo1xSW8M/LXqJg=
 github.com/aquasecurity/lmdrouter v0.4.4 h1:wh0qHM7s74HFOZiINI3fsBYyquBTWpF1U+JrcJbR+dA=
