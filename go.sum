@@ -3,6 +3,8 @@ cloud.google.com/go v0.115.0/go.mod h1:8jIM5vVgoAEoiVxQ/O4BFTfHqulPZgs/ufEzMcFMd
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/MikeB1124/stocks-lambda-utils v0.0.0-20240622202630-c2414c590cbd h1:ty+Jn+FhlhWDZf6TGottC1Ua7uhBLxcC8rRya6CTcrE=
 github.com/MikeB1124/stocks-lambda-utils v0.0.0-20240622202630-c2414c590cbd/go.mod h1:QPgk0BygZQ9GVDyLUUD9DuJpaNBVF7T5lBfH+pnDFcQ=
+github.com/MikeB1124/stocks-lambda-utils v1.0.0 h1:arNbzda4HER8miTOd30hENCcNbE5dtAZQ867+r7qLJM=
+github.com/MikeB1124/stocks-lambda-utils v1.0.0/go.mod h1:QPgk0BygZQ9GVDyLUUD9DuJpaNBVF7T5lBfH+pnDFcQ=
 github.com/alpacahq/alpaca-trade-api-go/v3 v3.4.0 h1:tcglbJ4agWXt9MNisK1cnoigRDmWEX85yb94IkQ52BU=
 github.com/alpacahq/alpaca-trade-api-go/v3 v3.4.0/go.mod h1:yQZTQ0N6Rfo8Sg7ishqAZ1i/ybMZBqo1xSW8M/LXqJg=
 github.com/aquasecurity/lmdrouter v0.4.4 h1:wh0qHM7s74HFOZiINI3fsBYyquBTWpF1U+JrcJbR+dA=

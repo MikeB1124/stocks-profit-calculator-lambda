@@ -3,7 +3,7 @@ module github.com/MikeB1124/stocks-profit-calculator-lambda
 go 1.22.4
 
 require (
-	github.com/MikeB1124/stocks-lambda-utils v0.0.0-20240622202630-c2414c590cbd
+	github.com/MikeB1124/stocks-lambda-utils v1.0.0
 	github.com/alpacahq/alpaca-trade-api-go/v3 v3.4.0
 	github.com/aquasecurity/lmdrouter v0.4.4
 	github.com/aws/aws-lambda-go v1.47.0
