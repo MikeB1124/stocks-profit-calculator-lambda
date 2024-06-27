@@ -13,17 +13,9 @@ func CalulateTradeProfits(ctx context.Context, event events.APIGatewayProxyReque
 	// Complete Trade For Expired or Cancelled Orders
 	expireUpdateResult, err := configuration.MongoClient.UpdateAllExpiredOrders()
 	if err != nil {
-		log.Printf("Error updating expired orders: %s", err.Error())
+		log.Printf("Error updating expired and canceled orders: %s", err.Error())
 		return stockslambdautils.CreateResponse(stockslambdautils.Response{Message: err.Error(), StatusCode: 500})
 	}
-	log.Printf("Updated %d expired orders", expireUpdateResult.ModifiedCount)
-
-	cancelUpdateResult, err := configuration.MongoClient.UpdateAllCancelledOrders()
-	if err != nil {
-		log.Printf("Error updating cancelled orders: %s", err.Error())
-		return stockslambdautils.CreateResponse(stockslambdautils.Response{Message: err.Error(), StatusCode: 500})
-	}
-	log.Printf("Updated %d cancelled orders", cancelUpdateResult.ModifiedCount)
-
+	log.Printf("Updated %d expired and canceled orders", expireUpdateResult.ModifiedCount)
 	return stockslambdautils.CreateResponse(stockslambdautils.Response{Message: "OK", StatusCode: 200})
 }
